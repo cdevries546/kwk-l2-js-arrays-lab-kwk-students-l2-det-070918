@@ -31,7 +31,7 @@ function prependDriver(name) {
   
 function removeLastDriver(name) {
  var car = drivers.slice()
-  car.shift(name)
+  car.pop(name)
   return car}
 
 
