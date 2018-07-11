@@ -36,7 +36,7 @@ function removeLastDriver(name) {
   
   function removeFirstDriver(name) {
  var car = drivers.slice()
-  car.pop(name)
+  car.shift(name)
   return car}
 
 
