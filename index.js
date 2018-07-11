@@ -26,7 +26,7 @@ function appendDriver (name) {
   
 function prependDriver(name) {
   var car = drivers.slice()
-  car.push(name)
+  car.unshift(name)
   return car}
 
 
