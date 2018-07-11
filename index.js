@@ -19,9 +19,8 @@ function destructivelyRemoveFirstDriver() {
   drivers.shift()
 }
 
-function appendDriver(name) {
+function appendDriver (name) {
   var car = drivers.slice()
   car.push(name)
-  return car
-}
+  return car}
 
